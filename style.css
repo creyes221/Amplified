@@ -1,0 +1,40 @@
+#headline {
+  font-family: 'bebas_neueregular';
+  z-index: 100;
+  text-align: center;
+  position: relative;
+  font-size: 180px;
+  color: #bb273f;
+}
+
+#splash {
+  max-width: 100%;
+  left:0;
+  top: 0;
+  
+}
+
+.solid-state-text {
+  width: 50%;
+  float: left;
+}
+
+#sspic {
+  width: 50%;
+  float: right;
+}
+
+#pullquote {
+  font-family: "bebas_neueregular";
+  color: #bb273f;
+  font-size: 60px;
+}
+
+p {
+  font-family: lora;
+}
+ h2 {
+   font-family: 'bebas_neueregular';
+   text-align: right;
+   font-size: 48px;
+ }
