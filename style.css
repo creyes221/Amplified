@@ -1,5 +1,5 @@
 #headline {
-  font-family: 'bebas_neueregular';
+  font-family: 'bebas_neueregular', 'yanone kaffeesatz';
   z-index: 100;
   text-align: center;
   position: relative;
@@ -18,39 +18,29 @@
   background-color: black;
 }
 
-.section1 {
-  height: 800px;
-}
-
-.solid-state-text {
-  width: 48%;
-  font-size: 24px;
-  float: left;
-  margin-left: 10px;
-  
-}
-
-.tube-text {
-  width: 50%;
-  float: right;
-  margin-left: 10px;
-  font-size: 24px;
+#section1, #section2 {
+  padding-bottom: 50px;
 }
 
 #sspic {
-  width: 50%;
-  float: right;
+  width: 100%;
 }
 
 #tpic {
- width:50%;
- float: left;
+ width: 100%
+}
+
+#leadin {
+  font-family: 'yanone Kaffeesatz', serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 #pullquote {
   font-family: "Yanone Kaffeesatz";
   color: #bb273f;
-  font-size: 50px;
+  font-size: 60px;
+  text-transform: uppercase;
 }
 
 .container {
@@ -59,9 +49,17 @@
   
 p {
   font-family: 'lora';
+  font-size: 20px;
 }
  h2 {
    font-family: 'Yanone Kaffeesatz';
    text-align: right;
-   font-size: 30px;
+   font-size: 40px;
+   text-transform: uppercase;
  }
+
+@media screen and (max-width: 767px) {
+  .solid-state-text, .tube-text, #tpic, #sspic {
+    width: 100%;
+  }
+}
