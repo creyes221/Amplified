@@ -14,9 +14,27 @@
   
 }
 
+.title {
+  background-color: black;
+}
+
+.section1 {
+  height: 800px;
+}
+
 .solid-state-text {
-  width: 50%;
+  width: 48%;
+  font-size: 24px;
   float: left;
+  margin-left: 10px;
+  
+}
+
+.tube-text {
+  width: 50%;
+  float: right;
+  margin-left: 10px;
+  font-size: 24px;
 }
 
 #sspic {
@@ -24,17 +42,26 @@
   float: right;
 }
 
-#pullquote {
-  font-family: "bebas_neueregular";
-  color: #bb273f;
-  font-size: 60px;
+#tpic {
+ width:50%;
+ float: left;
 }
 
+#pullquote {
+  font-family: "Yanone Kaffeesatz";
+  color: #bb273f;
+  font-size: 50px;
+}
+
+.container {
+  background-color: black;
+}
+  
 p {
-  font-family: lora;
+  font-family: 'lora';
 }
  h2 {
-   font-family: 'bebas_neueregular';
+   font-family: 'Yanone Kaffeesatz';
    text-align: right;
-   font-size: 48px;
+   font-size: 30px;
  }
