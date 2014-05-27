@@ -22,14 +22,12 @@
   padding-bottom: 50px;
 }
 
-#sspic {
+/*Example of how you might streamline this*/
+#sspic,#tpic {
   width: 100%;
 }
 
-#tpic {
- width: 100%
-}
-
+/*When you're ready, you might want to clean up the CSS... a bunch of repeating lines here. How could you consolidate?*/
 #leadin {
   font-family: 'yanone Kaffeesatz', serif;
   font-weight: bold;
