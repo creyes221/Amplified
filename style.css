@@ -33,15 +33,12 @@
 #leadin {
   font-family: 'yanone Kaffeesatz', serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 28px;
+  text-transform: uppercase;
+
 }
 
-#pullquote {
-  font-family: "Yanone Kaffeesatz";
-  color: #bb273f;
-  font-size: 60px;
-  text-transform: uppercase;
-}
+
 
 .container {
   background-color: black;
@@ -49,14 +46,11 @@
   
 p {
   font-family: 'lora';
-  font-size: 20px;
+  font-size: 28px;
+  padding: 0px 50px;
+  margin: 1em;
 }
- h2 {
-   font-family: 'Yanone Kaffeesatz';
-   text-align: right;
-   font-size: 40px;
-   text-transform: uppercase;
- }
+
 
 @media screen and (max-width: 767px) {
   .solid-state-text, .tube-text, #tpic, #sspic {
