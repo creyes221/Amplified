@@ -32,11 +32,11 @@
   background-color: black;
 }
 
-#secend{
+.secend{
   padding-bottom: 50px;
 }
 
-#secbegin{
+.secbegin{
 	padding-top:50px;
 }
 
@@ -80,12 +80,26 @@ p, img{
 }
 
 #tbut, #ssbut{
-	padding:0;
-	margin:0;
+	height:250px;
+}
+
+.buttons > p{
+	text-align:center;
+	margin-top:350px;
 }
 
 .mid{
 	text-align:center;
+}
+.buttons{
+	background-image:url('http://i.imgur.com/3vwcTxn.jpg');
+	max-width: 100%;
+  left:0;
+  top: 0;
+  margin:0;
+  padding:0;
+  height:800px;
+  background-size: cover;
 }
 
 
@@ -93,5 +107,8 @@ p, img{
 @media screen and (max-width: 767px) {
   .solid-state-text, .tube-text, #tpic, #sspic {
     width: 100%;
+  }
+  #tbut, #ssbut{
+	  height:180px;
   }
 }
