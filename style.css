@@ -81,6 +81,7 @@ p, img{
 
 #tbut, #ssbut{
 	height:250px;
+	cursor: pointer;
 }
 
 .buttons > p{
