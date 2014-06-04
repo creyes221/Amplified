@@ -19,21 +19,25 @@
 }
 
 #opener{
-	background-image:url('http://i.imgur.com/7OANEuD.jpg');
+	background-image:url('http://i.imgur.com/SP0plpd.jpg');
 }
 #sectwo{
-	background-image:url('http://i.imgur.com/S3u2v36.jpg');
+	background-image:url('http://i.imgur.com/03nieYz.jpg');
 }
 #secthree{
-	background-image:url('http://i.imgur.com/NkQ3mVk.jpg');
+	background-image:url('http://i.imgur.com/oJUuHoB.jpg');
 }
 
 .title {
   background-color: black;
 }
 
-#section1, #section2, .buttons {
+#secend{
   padding-bottom: 50px;
+}
+
+#secbegin{
+	padding-top:50px;
 }
 
 #sspic {
